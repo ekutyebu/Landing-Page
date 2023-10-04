@@ -75,3 +75,29 @@ aside {
     display: inline-block;
     margin: .5em;
 }
+
+/* section two*/
+
+.second-body {
+    text-align: center;
+}
+
+.sec-two {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+blockquote {
+    border: solid 5px #3882F6;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+text{
+  color: #1F2937;
+  font-size: 18px;
+
+}
