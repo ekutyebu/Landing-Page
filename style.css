@@ -101,3 +101,24 @@ text{
   font-size: 18px;
 
 }
+
+/* section three*/
+
+.grey-page {
+    background: #E5E7EB;
+    padding: 5em 0;
+}
+
+.con-grey {
+    padding: 4em;
+}
+
+.grey {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+div h3 {
+    margin-left: 70px;
+}
