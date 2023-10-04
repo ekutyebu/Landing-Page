@@ -90,7 +90,7 @@ aside {
 blockquote {
     border: solid 5px #3882F6;
     height: 100px;
-    width: 200px;
+    width: auto;
     align-items: center;
     padding: 20px;
     border-radius: 20px;
@@ -121,4 +121,30 @@ text{
 
 div h3 {
     margin-left: 70px;
+}
+
+/* last section */
+
+.note {
+    padding: 5em;
+}
+
+.sign-button-two {
+    background: #3882F6;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 20px;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: inline-block;
+    margin: .5em;
+}
+
+.copyrite {
+    background: #1F2937;
+    margin-bottom: ;
+    height: 20px;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
 }
