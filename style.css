@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 50%;
+    width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*first page*/
+
+.mecol {
+    color: #E5E7EB;
+    margin-left: -40px;
+}
+
+.container {
+    display: block;
+}
+
+.top-page {
+    background: #1F2937;
+    text-align: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    padding: 1em;
+}
+
+.menu-button {
+    font-size: 18px;
+    margin: 2em;
+}
+
+aside {
+    background: black;
+    height: 200px;
+    width: auto;
+    margin: 20px;
+    border-bottom: solid 50px #1F2937;
+}
+
+.text-head {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.up-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 1.5em;
+    padding: 1em;
+}
+
+.sign-button {
+    background: #3882F6;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 20px;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: inline-block;
+    margin: .5em;
+}
