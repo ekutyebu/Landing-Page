@@ -229,4 +229,34 @@ div h3 {
    .con-grey h3 {
     margin-left: 30em;
    }
+
+   .side {
+    background: #3882F6;
+    margin-left: 8em;
+    margin-right: 8em;
+    display: flex;
+    flex-grow: unset;
+    justify-content: space-between;
+   }
+
+   .signin h4 {
+    margin-bottom: 0;
+    margin-left: 4em;
+    color: #F9FAF8;
+   }
+
+   .signin p {
+    margin-left: 4em;
+    color: #E5E7EB;
+   }
+
+   .sign-button-tca {
+    margin-right: 70px;
+    border: solid 2px #F9FAF8;
+    border-radius: 10px;
+    padding: 1em 2em;
+    color: #F9FAF8;
+    display: block;
+    margin-top: 1em;
+   }
 }
