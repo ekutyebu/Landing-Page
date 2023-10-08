@@ -89,17 +89,17 @@ aside {
 
 blockquote {
     border: solid 5px #3882F6;
-    height: 100px;
-    width: auto;
-    align-items: center;
+    height: 15vh;
+    width: 15vh;
     padding: 20px;
     border-radius: 20px;
+    margin-left: 9em;
 }
 
 text{
   color: #1F2937;
   font-size: 18px;
-
+  margin: 30px;
 }
 
 /* section three*/
@@ -150,53 +150,60 @@ div h3 {
 }
 
 @media only screen and (min-width: 670px) {
-    .menu-bar {
-        display: flex;
-        justify-content: space-around;
-    }
+   .menu-bar {
+    display: flex;
+    margin-left: 2em;
+    justify-content: space-between;
+    flex: auto;
+   }
 
-    .menu-button {
-        display: block;
-    }
+   .menu-button {
+    display: inline-block;
+   }
 
-    .menu-button ul {
-        display: flex;
-        justify-content: space-around;
-        gap: 60px;
-        margin-top: 0;
-    }
+   .logo {
+    margin-left: 4.5em;
+   }
 
-    .logo, .mecol {
-        flex: 1 1 0;
-    }
+   .menu-button ul {
+    display: flex;
+    gap: 70px;
+    margin-top: 0;
+    margin-right: 7em;
+   }
 
-    .logo {
-        margin: .3em -5em;
-    }
+   .top-details {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8em;
+   }
 
-    .top-details {
-        display: flex;
-    }
+   aside {
+    margin: 4em 4em 0em 10em;
+    padding-left: 19em;
+   }
 
-    .paragraph {
-        padding: .5em;
-        margin: 1em;
-        text-align: left;
-        flex: auto;
-    }
+   .paragraph {
+    padding-right: 1em;
+    text-wrap: auto;
+    margin-left: 10em;
+    text-align: left;
+   }
 
-    .text-head {
-        margin-bottom: 0;
-    }
+   .text-head {
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: .5em;
+   }
 
-    .up-text {
-        margin: 0 -1em;
-        padding: -.5em;
-    }
+   .up-text {
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: em;
+   }
 
-    aside {
-        padding: 1em 6em;
-        margin-top: 6em;
-        flex: auto;
-    }
+   .sign-button {
+    margin-bottom: 3em;
+    margin-left: 1em;
+   }
 }
