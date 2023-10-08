@@ -87,13 +87,21 @@ aside {
     font-weight: bold;
 }
 
-blockquote {
+.grid {
+    margin-right: 2em;
+}
+
+.grid-text {
+    margin-right: 2em;
+    padding: auto;
+}
+
+.grid-box {
     border: solid 5px #3882F6;
-    height: 15vh;
-    width: 15vh;
-    padding: 20px;
     border-radius: 20px;
-    margin-left: 9em;
+    width: auto;
+    height: 40px;
+    padding-top: 100px;
 }
 
 text{
@@ -205,5 +213,11 @@ div h3 {
    .sign-button {
     margin-bottom: 3em;
     margin-left: 1em;
+   }
+
+   .grid {
+    display: flex;
+    flex-grow: unset;
+    margin: 4em 10em 3em 8em;
    }
 }
